@@ -1,145 +1,150 @@
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
-    background-color: #92E3A9;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #92e3a9;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 header div {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; /* Adicionado para espaçar os elementos na linha */
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Adicionado para espaçar os elementos na linha */
 }
 
 header a {
-    text-decoration: none;
-    color: #333;
-    margin: 0 10px; /* Adicionado para criar espaço entre os elementos da navegação */
+  text-decoration: none;
+  color: #333;
+  margin: 0 10px; /* Adicionado para criar espaço entre os elementos da navegação */
 }
-header a:hover {  
-    color: #fff; /* Cor do texto quando hover */
+header a:hover {
+  color: #fff; /* Cor do texto quando hover */
 }
 
 nav li a:hover {
-    color: #fff; /* Cor do texto quando hover */
+  color: #fff; /* Cor do texto quando hover */
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 nav li {
-    display: inline;
-    margin-right: 10px; /* Adicionado para criar espaço entre os itens da lista */
+  display: inline;
+  margin-right: 10px; /* Adicionado para criar espaço entre os itens da lista */
 }
 h1 {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 2em;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 2em;
 }
 p {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
 }
 .container {
-    display: flex;
-    align-items: left;
-    margin: 20px;
-    border: 5px;
-    padding: 20px;
+  display: flex;
+  align-items: left;
+  margin: 20px;
+  border: 5px;
+  padding: 20px;
 }
 
 .container img {
-    display: flex;
-    align-items: flex-start;
-    margin: 20px;
-    padding: 20px;
-    flex-direction: row-reverse;
+  display: flex;
+  align-items: flex-start;
+  margin: 20px;
+  padding: 20px;
+  flex-direction: row-reverse;
 }
 
 #computer-image {
-    width: 400px; /* Mesmo tamanho da imagem pessoas.svg */
+  width: 400px; /* Mesmo tamanho da imagem pessoas.svg */
 }
 
 .container article {
-    margin: 60px 20px 20px;
-    flex: 1; /* Faz o conteúdo do artigo ocupar todo o espaço disponível */
+  margin: 60px 20px 20px;
+  flex: 1; /* Faz o conteúdo do artigo ocupar todo o espaço disponível */
 }
 
 .container.sobre {
-    display: flex;
-    align-items: center;
-    margin: 0;
-    border: 5px;
-    padding: 20px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  border: 5px;
+  padding: 20px;
 }
 
 .container.sobre article {
-    flex: 1; /* Faz o conteúdo do artigo ocupar todo o espaço disponível */
-    margin-top: 5px; /* Ajusta a margem superior do article */
+  flex: 1; /* Faz o conteúdo do artigo ocupar todo o espaço disponível */
+  margin-top: 5px; /* Ajusta a margem superior do article */
 }
 
 .container.sobre h1 {
-    margin-top: 0; /* Remove a margem superior do título */
+  margin-top: 0; /* Remove a margem superior do título */
 }
 
 .container.sobre img {
-    width: 600px; /* Ajuste o tamanho conforme necessário */
-    margin-right: 20px; /* Adiciona um espaço entre o texto e a imagem */
+  width: 600px; /* Ajuste o tamanho conforme necessário */
+  margin-right: 20px; /* Adiciona um espaço entre o texto e a imagem */
 }
 
 form {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 form button {
-    background-color: #92E3A9; /* Cor de fundo do botão */
-    color: #333; /* Cor do texto do botão */
-    border-radius: 5px; /* Adiciona bordas arredondadas */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombreamento suave */
-    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+  background-color: #92e3a9; /* Cor de fundo do botão */
+  color: #333; /* Cor do texto do botão */
+  border-radius: 5px; /* Adiciona bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombreamento suave */
+  cursor: pointer; /* Muda o cursor para indicar que é clicável */
 }
 
 form button:hover {
-    color: #fff; /* Cor do texto do botão quando hover */
+  color: #fff; /* Cor do texto do botão quando hover */
 }
 
 form label {
-    display: block;
-    margin-bottom: 5px;
+  display: block;
+  margin-bottom: 5px;
 }
 
 form input,
 form textarea,
 form button {
-    margin-bottom: 15px;
-    border-radius: 5px; /* Adiciona bordas arredondadas */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border: 1px solid #ccc; 
+  margin-bottom: 15px;
+  border-radius: 5px; /* Adiciona bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
 }
 
 /* Rodapé com efeito hover */
 footer {
-    text-align: center;
-    padding: 3px;
-    background-color: #92E3A9;
-    color: #333;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    opacity: 0; /* Inicia com opacidade 0 para estar invisível */
-    transition: opacity 0.3s ease; /* Adiciona uma transição suave de 0.3 segundos */
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 3px;
+  background-color: #92e3a9;
+  color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  opacity: 0; /* Inicia com opacidade 0 para estar invisível */
+  transition: opacity 0.3s ease; /* Adiciona uma transição suave de 0.3 segundos */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 footer:hover {
-    opacity: 1; /* Quando hover, a opacidade é definida como 1 (totalmente visível) */
+  opacity: 1; /* Quando hover, a opacidade é definida como 1 (totalmente visível) */
 }
